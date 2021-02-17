@@ -1,0 +1,607 @@
+{
+  "hash": "6a3d33d1b292ffd71501",
+  "version": "5.10.1",
+  "time": 1300,
+  "builtAt": 1608200624292,
+  "publicPath": "auto",
+  "outputPath": "/Users/ashikodi/source/randtorial/dist",
+  "assetsByChunkName": {
+    "index": [
+      "index.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 247,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 247
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.js",
+      "size": 0,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 0
+      },
+      "chunkNames": [
+        "index"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        826
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1,
+      "sizes": {
+        "javascript": 1
+      },
+      "names": [
+        "index"
+      ],
+      "idHints": [],
+      "runtime": [
+        "index"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "6d98ef9406bc2ad7f3f3",
+      "childrenByOrder": {},
+      "id": 826,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 1,
+          "sizes": {
+            "javascript": 1
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/ashikodi/source/randtorial/node_modules/babel-loader/lib/index.js!/Users/ashikodi/source/randtorial/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/Users/ashikodi/source/randtorial/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 1005,
+            "resolving": 76,
+            "restoring": 0,
+            "building": 929,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 76,
+            "dependencies": 0
+          },
+          "id": 579,
+          "issuerId": null,
+          "chunks": [
+            826
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/ashikodi/source/randtorial/src/index.js",
+              "loc": "index",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "/Users/ashikodi/source/randtorial/src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 1,
+      "sizes": {
+        "javascript": 1
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/ashikodi/source/randtorial/node_modules/babel-loader/lib/index.js!/Users/ashikodi/source/randtorial/src/index.js",
+      "name": "./src/index.js",
+      "nameForCondition": "/Users/ashikodi/source/randtorial/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 1005,
+        "resolving": 76,
+        "restoring": 0,
+        "building": 929,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 76,
+        "dependencies": 0
+      },
+      "id": 579,
+      "issuerId": null,
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/Users/ashikodi/source/randtorial/src/index.js",
+          "loc": "index",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    }
+  ],
+  "entrypoints": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        826
+      ],
+      "assets": [
+        {
+          "name": "index.js",
+          "size": 0
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 0,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        826
+      ],
+      "assets": [
+        {
+          "name": "index.js",
+          "size": 0
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 0,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "dc69c1c02f162dfee1a7",
+      "version": "5.10.1",
+      "time": 72,
+      "builtAt": 1608200623087,
+      "publicPath": "auto",
+      "outputPath": "/Users/ashikodi/source/randtorial/dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": [
+          "__child-HtmlWebpackPlugin_0"
+        ]
+      },
+      "assets": [
+        {
+          "type": "asset",
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 1870,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "javascriptModule": false
+          },
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [
+            443
+          ],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 489,
+          "sizes": {
+            "javascript": 489
+          },
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "auxiliaryFiles": [],
+          "hash": "b6236418ed7edbaea704",
+          "childrenByOrder": {},
+          "id": 443,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "size": 489,
+              "sizes": {
+                "javascript": 489
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/ashikodi/source/randtorial/node_modules/html-webpack-plugin/lib/loader.js!/Users/ashikodi/source/randtorial/src/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "nameForCondition": "/Users/ashikodi/source/randtorial/src/index.html",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 0,
+                "resolving": 0,
+                "restoring": 0,
+                "building": 0,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 0,
+                "dependencies": 0
+              },
+              "id": 411,
+              "issuerId": null,
+              "chunks": [
+                443
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/ashikodi/source/randtorial/node_modules/html-webpack-plugin/lib/loader.js!/Users/ashikodi/source/randtorial/src/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "resolvedModuleIdentifier": "/Users/ashikodi/source/randtorial/node_modules/html-webpack-plugin/lib/loader.js!/Users/ashikodi/source/randtorial/src/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:99-113",
+                  "moduleId": 411,
+                  "resolvedModuleId": 411
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "/Users/ashikodi/source/randtorial/node_modules/html-webpack-plugin/lib/loader.js!/Users/ashikodi/source/randtorial/src/index.html",
+                  "loc": "HtmlWebpackPlugin_0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:99-113",
+                "Statement (VariableDeclaration) with side effects in source code at 1:0-99",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "/Users/ashikodi/source/randtorial/node_modules/html-webpack-plugin/lib/loader.js!/Users/ashikodi/source/randtorial/src/index.html"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 489,
+          "sizes": {
+            "javascript": 489
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/ashikodi/source/randtorial/node_modules/html-webpack-plugin/lib/loader.js!/Users/ashikodi/source/randtorial/src/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "nameForCondition": "/Users/ashikodi/source/randtorial/src/index.html",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": 411,
+          "issuerId": null,
+          "chunks": [
+            443
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/ashikodi/source/randtorial/node_modules/html-webpack-plugin/lib/loader.js!/Users/ashikodi/source/randtorial/src/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleIdentifier": "/Users/ashikodi/source/randtorial/node_modules/html-webpack-plugin/lib/loader.js!/Users/ashikodi/source/randtorial/src/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:99-113",
+              "moduleId": 411,
+              "resolvedModuleId": 411
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/ashikodi/source/randtorial/node_modules/html-webpack-plugin/lib/loader.js!/Users/ashikodi/source/randtorial/src/index.html",
+              "loc": "HtmlWebpackPlugin_0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:99-113",
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-99",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "name": "HtmlWebpackPlugin_0",
+          "chunks": [
+            443
+          ],
+          "assets": [
+            {
+              "name": "__child-HtmlWebpackPlugin_0"
+            }
+          ],
+          "filteredAssets": 0,
+          "assetsSize": null,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "name": "HtmlWebpackPlugin_0",
+          "chunks": [
+            443
+          ],
+          "assets": [
+            {
+              "name": "__child-HtmlWebpackPlugin_0"
+            }
+          ],
+          "filteredAssets": 0,
+          "assetsSize": null,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
