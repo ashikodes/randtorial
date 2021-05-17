@@ -1,0 +1,25 @@
+body {
+  font-family: $font;
+}
+.container-header {
+  text-align: center;
+  margin-top: 32px;
+}
+.app-icon {
+  @include size(100px);
+}
+.settings-button {
+  background-color: $secondary-color;
+  border-radius: 8px 8px 0 0;
+  border: 2px solid $primary-color;
+  outline: none;
+
+  &:hover {
+    background-color: lighten($secondary-color, 10%);
+  }
+
+  svg {
+    fill: $primary-color;
+    @include size(64px);
+  }
+}

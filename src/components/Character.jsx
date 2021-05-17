@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Character(props) {
-  return <div className="number">1</div>;
+  useEffect(() => {}, []);
+
+  return <span className="number">3</span>;
 }
 
 export default Character;

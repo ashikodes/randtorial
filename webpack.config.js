@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const StylelintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -27,6 +28,10 @@ module.exports = {
         test: /\.(png|jpe?g)$/i,
         loader: 'file-loader',
       },
+      {
+        test: /\.svg$/,
+        loader: 'svg-react-loader',
+      },
     ],
   },
   optimization: {
@@ -35,6 +40,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
+    }),
+    new StylelintPlugin({
+      configFile: './.stylelintrc',
+      context: 'src/scss',
+      files: '**/*.scss',
+      fix: true,
     }),
   ],
 };

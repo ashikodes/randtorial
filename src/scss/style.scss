@@ -2,3 +2,12 @@
 
 @import 'globals/variables';
 @import 'globals/reboot';
+
+// Mixins
+@import 'mixins/size';
+
+// Pages
+@import 'pages/app';
+
+// Components
+@import 'components/character';
