@@ -12,7 +12,7 @@ body {
   background-color: $secondary-color;
   border-radius: 8px 8px 0 0;
   border: 2px solid $primary-color;
-  outline: none;
+  @include size(80px);
 
   &:hover {
     background-color: lighten($secondary-color, 10%);

@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Character from 'components/Character';
-import PausePlay from 'components/settings/PausePlay';
 import AppIcon from 'assets/svg/app-icon.svg';
 
 import 'scss/style.scss';
@@ -14,7 +13,6 @@ function App(props) {
         <h1>Randtorial</h1>
       </div>
       <Character />
-      <PausePlay />
     </>
   );
 }
