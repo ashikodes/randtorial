@@ -25,7 +25,7 @@ function Character() {
 
   return (
     <>
-      <span className="number">{charArray[idx]}</span>
+      <span className="number">{charArray[idx] || charArray[0]}</span>
     </>
   );
 }

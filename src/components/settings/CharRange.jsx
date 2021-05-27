@@ -6,7 +6,7 @@ import Dots from 'assets/svg/dots.svg';
 
 function CharRange({ lowerRange, setLowerRange, upperRange, setUpperRange }) {
   return (
-    <div class="char-range">
+    <div className="char-range">
       <div className="value-range">
         <button
           className="settings-button"
