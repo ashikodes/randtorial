@@ -1,25 +1,55 @@
 body {
   font-family: $font;
 }
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px 16px;
+  align-items: center;
+}
+// Header
 .container-header {
   text-align: center;
-  margin-top: 32px;
 }
 .app-icon {
   @include size(100px);
 }
+// Number
+.number {
+  font-size: 45vh;
+  line-height: 1;
+  text-align: center;
+  display: block;
+  color: $primary-color;
+}
+//Settings
+.char-range {
+  display: flex;
+  align-items: center;
+}
+.value-range {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $primary-color;
+  font-size: 22px;
+}
 .settings-button {
-  background-color: $secondary-color;
-  border-radius: 8px 8px 0 0;
-  border: 2px solid $primary-color;
+  background-color: transparent;
+  border: none;
   @include size(80px);
-
-  &:hover {
-    background-color: lighten($secondary-color, 10%);
-  }
 
   svg {
     fill: $primary-color;
     @include size(64px);
   }
+
+  &:hover svg {
+    fill: lighten($primary-color, 10%);
+  }
+}
+.separator svg {
+  @include size(64px);
 }

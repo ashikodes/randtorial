@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
+import CharArrayContext from 'contexts/charArray';
 
 function Character() {
-  const charArray = [1, 2, 3, 4, 5];
+  const charArray = useContext(CharArrayContext);
   let [idx, setIdx] = useState(0);
 
   useEffect(() => {
@@ -17,10 +18,10 @@ function Character() {
       }
 
       setIdx(idx);
-    }, 1000);
+    }, 2000);
 
     return () => clearInterval(intervalID);
-  }, []);
+  }, [charArray]);
 
   return (
     <>
