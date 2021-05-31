@@ -4,6 +4,7 @@ import CharArrayContext from 'contexts/charArray';
 function Character() {
   const charArray = useContext(CharArrayContext);
   let [idx, setIdx] = useState(0);
+  const [pause, setPause] = useState(false);
 
   useEffect(() => {
     let intervalID = setInterval(() => {
@@ -20,12 +21,19 @@ function Character() {
       setIdx(idx);
     }, 2000);
 
+    if (pause) clearInterval(intervalID);
+
     return () => clearInterval(intervalID);
-  }, [charArray]);
+  }, [charArray, pause]);
 
   return (
     <>
-      <span className="number">{charArray[idx] || charArray[0]}</span>
+      <button
+        onClick={() => setPause(!pause)}
+        className={`number ${pause ? 'active' : ''}`}
+      >
+        {charArray[idx] || charArray[0]}
+      </button>
     </>
   );
 }
