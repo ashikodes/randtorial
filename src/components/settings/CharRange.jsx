@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 
-import ArrowUp from 'assets/svg/arrow-up.svg';
-import ArrowDown from 'assets/svg/arrow-down.svg';
-import Dots from 'assets/svg/dots.svg';
+import ArrowUp from 'assets/svg/plus.svg';
+import ArrowDown from 'assets/svg/minus.svg';
 
 function CharRange({ lowerRange, setLowerRange, upperRange, setUpperRange }) {
   return (
@@ -30,9 +29,7 @@ function CharRange({ lowerRange, setLowerRange, upperRange, setUpperRange }) {
           <ArrowDown />
         </button>
       </div>
-      <span className="separator">
-        <Dots />
-      </span>
+      <span className="separator">to</span>
       <div className="value-range">
         <button
           className="settings-button"

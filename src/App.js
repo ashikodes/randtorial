@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import { render } from 'react-dom';
-import Character from 'components/Character';
-import CharRange from 'components/settings/CharRange';
-import AppIcon from 'assets/svg/app-icon.svg';
 
 import CharArrayContext from 'contexts/charArray';
+import Character from 'components/Character';
+import CharRange from 'components/settings/CharRange';
+import CharType from './components/settings/CharType';
 
-import 'scss/style.scss';
+import AppIcon from 'assets/svg/app-icon.svg';
 import getRange from './utils/getRange';
 
-function App(props) {
+import 'scss/style.scss';
+
+function App() {
   const [lowerRange, setLowerRange] = useState(1);
   const [upperRange, setUpperRange] = useState(5);
 
@@ -22,7 +24,10 @@ function App(props) {
     <CharArrayContext.Provider value={charArray}>
       <div className="container-header">
         <AppIcon className="app-icon" />
-        <h1>Randtorial</h1>
+        <h1 className="header-text">
+          <span className="text-random">Random</span>
+          <span className="text-character">Numbers</span>
+        </h1>
       </div>
       <Character />
       <CharRange

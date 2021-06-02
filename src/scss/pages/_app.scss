@@ -16,10 +16,27 @@ body {
 .app-icon {
   @include size(100px);
 }
+.header-text {
+  text-transform: uppercase;
+  color: #32caf8;
+  font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  margin-left: -25%;
+  margin-top: 8px;
+}
+.header-text .text-random {
+  text-align: left;
+}
+.header-text .text-character {
+  align-self: flex-end;
+  width: 50%;
+}
 // Number
 .number {
   font-size: 45vh;
-  line-height: 1;
+  line-height: 0.7;
   text-align: center;
   display: block;
   color: $primary-color;
@@ -55,14 +72,15 @@ body {
   @include size(80px);
 
   svg {
-    fill: $primary-color;
     @include size(64px);
   }
 
   &:hover svg {
-    fill: lighten($primary-color, 10%);
+    fill: #eee;
   }
 }
-.separator svg {
-  @include size(64px);
+.separator {
+  font-style: italic;
+  font-size: 24px;
+  color: $primary-color;
 }
